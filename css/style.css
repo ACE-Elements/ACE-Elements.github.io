@@ -18,6 +18,10 @@ html {
   background-color: mintcream;
 }
 
+body {
+  margin: 0;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -50,6 +54,12 @@ h1 {
 }
 
 #gitHubLogo {
+  width: 3.5em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+#threadsLogo {
   width: 3.5em;
   margin-top: 1em;
   margin-left: 1em;
