@@ -89,22 +89,18 @@ header {
   color: white;
 }
 
-#bioParagraphOne {
-  margin-bottom: 3%;
+#bioParagraphOne,
+#bioParagraphTwo,
+#bioParagraphThree,
+#bioParagraphFour {
+  margin-bottom: 2%;
   margin-left: 2%;
   margin-right: 2%;
 }
 
-#bioParagraphTwo {
-  margin-bottom: 3%;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-#bioParagraphThree {
-  margin-bottom: 3%;
-  margin-left: 2%;
-  margin-right: 2%;
+#bioParagraphFour {
+  text-decoration: underline;
+  margin-left: 3.5%;
 }
 
 .spcLink {
@@ -119,22 +115,9 @@ header {
   color: red;
 }
 
-.myProjects {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 30%;
-  font-size: 1.05em;
-  font-weight: bold;
-  margin-top: 3em;
-  margin-left: 35%;
-  font-family: 'Montserrat Alternates', sans-serif;
-  color: black;
-  border: solid 2px black;
-}
-
-#myProjectsHeader {
-  text-decoration: underline;
+#skillsList {
+  list-style: none;
+  margin-right: 0.50%;
 }
 
 /*Uncomment when you want to add certifications*/
