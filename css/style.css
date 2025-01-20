@@ -12,10 +12,10 @@
    ========================================================================== */
 
 html {
-  color: black;
+  color: white;
   font-size: 1em;
   line-height: 1.4;
-  background-color: #BBDEFF;
+  background-color: #232324;
 }
 
 body {
@@ -31,30 +31,28 @@ body {
  */
 
 h1 {
+  color: white;
   text-align: center;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-#aboutMe {
+.nav-about-me {
   text-align: center;
-  padding-bottom: 1em;
-  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .socials {
   display: flex;
   justify-content: center;
   padding-bottom: 1em;
-  border-bottom: solid black 3px;
 }
 
 #linkedinLogo {
-  width: 3.5em;
+  width: 4em;
   margin-top: 1em;
 }
 
 #gitHubLogo {
-  width: 3.5em;
+  width: 4em;
   margin-top: 1em;
   margin-left: 1em;
 }
@@ -65,59 +63,58 @@ h1 {
   margin-left: 1em;
 }
 
-#headerImage {
-  position: relative;
-  width: 60%;
-  height: auto;
-  margin-left: 19.5%;
-}
-
 header {
-  box-sizing: border-box;
-  background-color: #252525;
-  color: white;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232324;
+  color: black;
+  height: 100px;
 }
 
 #bioContainer {
-  display: inline-block;
-  text-align: center;
+  display: -ms-flexbox;
+  align-content: center;
+  text-align: start;
   border-bottom: solid 3px black;
   width: 100%;
   font-family: 'Montserrat Alternates', sans-serif;
-  background-color: #0E2AF5;
+  background-color: dodgerblue;
   color: white;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-#bioParagraphOne,
-#bioParagraphTwo,
-#bioParagraphThree,
-#bioParagraphFour {
+.bio-headings {
+  display: -ms-flexbox;
+  text-align: start;
+  text-decoration: underline;
+}
+
+#bioParagraph {
   margin-bottom: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-right: 5%;
 }
 
 #bioParagraphFour {
   text-decoration: underline;
-  margin-left: 3.5%;
 }
 
 .spcLink {
-  color: yellow;
-}
-
-#spcLink:hover {
-  color: green;
+  color: blue
 }
 
 #spcLink:visited {
   color: red;
 }
 
+.list-item {
+  text-decoration: underline;
+  color: darkslategray;
+}
+
 #skillsList {
   list-style: none;
-  margin-right: 0.50%;
 }
 
 /*Uncomment when you want to add certifications*/
