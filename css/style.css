@@ -111,9 +111,14 @@ header {
   color: red;
 }
 
-.list-item {
+.list-item-heading {
   text-decoration: underline;
   color: darkslategrey;
+  font-size: 0.95em;
+}
+
+.list-item {
+  font-size: 0.85em;
 }
 
 #skillsList {
