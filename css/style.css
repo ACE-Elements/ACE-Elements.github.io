@@ -72,13 +72,13 @@ header {
   background-color: #232324;
   color: black;
   height: 100px;
+  font-size: 140%;
 }
 
 #bioContainer {
   display: -ms-flexbox;
   align-content: center;
   text-align: start;
-  border-bottom: solid 3px black;
   width: 100%;
   font-family: 'Montserrat Alternates', sans-serif;
   background-color: dodgerblue;
