@@ -85,6 +85,7 @@ header {
   color: white;
   padding-left: 2%;
   padding-right: 2%;
+  border-bottom: none;
 }
 
 .bio-headings {
