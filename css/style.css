@@ -119,25 +119,6 @@ header {
   list-style: none;
 }
 
-/*Uncomment when you want to add certifications*/
-/* #myCertsHeader {
-  text-decoration: underline;
-}
-
-.myCerts {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  width: 25%;
-  font-size: 1.05em;
-  font-weight: bold;
-  margin-top: -7.6em;
-  margin-left: 75%;
-  font-family: 'Montserrat Alternates', sans-serif;
-  color: black;
-  border: solid 2px black;
-} */
-
 footer {
   text-align: center;
   margin-top: 30%;
