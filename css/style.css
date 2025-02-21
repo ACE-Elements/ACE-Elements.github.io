@@ -103,12 +103,16 @@ header {
   text-decoration: underline;
 }
 
-.spcLink {
+.spcLink:link {
   color: blue
 }
 
-#spcLink:visited {
-  color: red;
+.spcLink:visited {
+  color: black;
+}
+
+.spcLink:hover {
+  color: blue;
 }
 
 .list-item-heading {
